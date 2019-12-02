@@ -18,3 +18,4 @@ Aramais,Stepanyan,1993-03-26,aramais.stepanyan@etu.univ-smb.fr,CommanderShepardN
 Julien,Rouzee, 1998-06-11, julien.rouzee@etu.univ-smb.fr, Julien-rouzee
 Baptiste,Diot,1995-08-10,baptiste.diot@etu.univ-smb.fr,Dehmena
 Thomas,Bottollier-Darbelin,2003-04-10,thomas.bottollierdarbelin@etu.univ-savoie.fr,Kaddass
+Yann,Dubost,1998-07-29,yann.dubost@etu.univ-smb.fr,YannDubost

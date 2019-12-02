@@ -6,6 +6,7 @@ Sabrina,Khelifi,1994-01-22,Sabrina.Khelifi@etu.univ-savoie.fr,Sabri-na00
 Kévin,Keriche,1995-09-16,kevin.keriche@etu.univ-smb.fr,KwikApu
 Alexandre,Ascenci,1998-03-24,alexandre.ascenci@etu.univ-smb.fr
 Arnaud,Lebon,1997-11-20,arnaud.lebon@etu.univ-smb.fr,Arnaud-Lebon
+Sacha,Favre-teylaz,1995-08-18,sacha.favre.t@gmail.com,sixt77
 Baptiste,Favre-Teylaz,1997-08-14,b.favre.teylaz@gmail.com,BaptisteFT
 Aramais,Stepanyan,1993-03-26,aramais.stepanyan@etu.univ-smb.fr,CommanderShepardN7
 Julien,Rouzee, 1998-06-11, julien.rouzee@etu.univ-smb.fr, Julien-rouzee

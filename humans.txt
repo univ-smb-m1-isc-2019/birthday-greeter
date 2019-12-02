@@ -1,7 +1,6 @@
 Guillaume,Jambet,1975-11-01,guillaume.jambet@gmail.com,gjambet
 Olivier,Legsage,1997-07-10,olivier.lesage@etu.univ-savoie.fr,OlivierLESAGE
-Guillaume,Jambet,1975-11-01,guillaume.jambet@gmail.com,gjambet 
-Lucas,Brignoli,1996-02-03,lucasbrign@gmail.com,dontcrenie
+Lucas,Brignoli,1996-02-03,luasbrign@gmail.com,dontcrenie
 Thibault,Chaminade,1998-06-27,thibault.chaminade@etu.univ-smb.fr,thibChami
 Vincent,Brozzoni,1997-01-08,vincent-brozzoni@outlook.fr,VincentBROZZONI
 Théo,Jugand,1998-01-26,jugandtheo@gmail.com,TheoJugand

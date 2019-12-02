@@ -1,4 +1,4 @@
-package univ-smb-m1-isc-2019;
+package birthday;
 
 import static org.junit.Assert.assertTrue;
 

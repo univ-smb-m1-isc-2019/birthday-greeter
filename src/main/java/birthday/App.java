@@ -1,4 +1,4 @@
-package univ-smb-m1-isc-2019;
+package birthday;
 
 /**
  * Hello world!

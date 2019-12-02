@@ -1,3 +1,17 @@
 Guillaume,Jambet,1975-11-01,guillaume.jambet@gmail.com,gjambet 
 Lucas,Brignoli,1996-02-03,luasbrign@gmail.com,dontcrenie
 Vincent,Brozzoni,1997-01-08,vincent-brozzoni@outlook.fr,VincentBROZZONI
+Théo,Jugand,1998-01-26,jugandtheo@gmail.com,TheoJugand
+Nathan,Chevallier,1998-03-10,nathan.chevallier@etu.univ-smb.fr,NathanChevallier
+Paul,Lopez,1997-04-29,paul.lopez@etu.univ-smb.fr,PaulLopez2904
+Théo,Letourneux,1997-02-09,theo.letourneux@etu.univ-smb.fr,TheoLetourneux
+Sabrina,Khelifi,1994-01-22,Sabrina.Khelifi@etu.univ-savoie.fr,Sabri-na00
+Kévin,Keriche,1995-09-16,kevin.keriche@etu.univ-smb.fr,KwikApu
+Alexandre,Ascenci,1998-03-24,alexandre.ascenci@etu.univ-smb.fr
+Arnaud,Lebon,1997-11-20,arnaud.lebon@etu.univ-smb.fr,Arnaud-Lebon
+Sacha,Favre-teylaz,1995-08-18,sacha.favre.t@gmail.com,sixt77
+Baptiste,Favre-Teylaz,1997-08-14,b.favre.teylaz@gmail.com,BaptisteFT
+Aramais,Stepanyan,1993-03-26,aramais.stepanyan@etu.univ-smb.fr,CommanderShepardN7
+Julien,Rouzee, 1998-06-11, julien.rouzee@etu.univ-smb.fr, Julien-rouzee
+Baptiste,Diot,1995-08-10,baptiste.diot@etu.univ-smb.fr,Dehmena
+Thomas,Bottollier-Darbelin,2003-04-10,thomas.bottollierdarbelin@etu.univ-savoie.fr,Kaddass

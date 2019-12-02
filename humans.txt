@@ -2,5 +2,6 @@ Guillaume,Jambet,1975-11-01,guillaume.jambet@gmail.com,gjambet
 Lucas,Brignoli,1996-02-03,luasbrign@gmail.com,dontcrenie
 Alexandre,Ascenci,1998-03-24,alexandre.ascenci@etu.univ-smb.fr
 Arnaud,Lebon,1997-11-20,arnaud.lebon@etu.univ-smb.fr,Arnaud-Lebon
+Julien,Rouzee, 1998-06-11, julien.rouzee@etu.univ-smb.fr, Julien-rouzee
 Baptiste,Diot,1995-08-10,baptiste.diot@etu.univ-smb.fr,Dehmena
 Thomas,Bottollier-Darbelin,2003-04-10,thomas.bottollierdarbelin@etu.univ-savoie.fr,Kaddass

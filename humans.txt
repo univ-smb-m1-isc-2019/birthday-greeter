@@ -21,3 +21,4 @@ Maxime,Vigny,1997-12-09,maxvigny@orange.fr,MaximeVigny
 Adrien,Brianne,1995-09-18,adrien.brianne@etu.univ-smb.fr,Cocoboost
 Yann,Dubost,1998-07-29,yann.dubost@etu.univ-smb.fr,YannDubost
 Quentin,Blin,1996-12-07,quentin.blin@etu.univ-smb.fr,SwaggyCake
+Luca,Chapelle,1998-11-14,luca.chapelle@etu.univ-smb.fr,lucachapelle

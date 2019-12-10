@@ -13,7 +13,7 @@ import java.util.TimerTask;
 
 public class SendBirthdayMsg extends TimerTask {
 	
-	static File file = new File("F:\\M1\\infoIDE\\m1-isc-2019\\humans.txt");
+	static File file = new File("../humans.txt");
 	static ArrayList<String[]> birthdayArray = new ArrayList<String[]>();
 	public void run() {
 		
@@ -21,33 +21,32 @@ public class SendBirthdayMsg extends TimerTask {
 		try {
 			br = new BufferedReader(new FileReader(file));
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		String str;
 		String[] tokens;
 		try {
 			while ((str = br.readLine()) != null) {
-				tokens = str.split(",");
-				birthdayArray.add(tokens);
+				tokens = str.split(",");//récupère les strings entre , et stock dans un tab de string
+				birthdayArray.add(tokens);//ajoute ce tab à une liste
 			}
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		sendMsg();
 	}
 	void sendMsg() {
+		
 		Calendar cal = Calendar.getInstance();
 		cal.set(1997, Calendar.NOVEMBER, 20);
-		Date today = cal.getTime();
+		Date today = cal.getTime();//set la date d'aujourd'hui au 1997-11-20
 		
 		String pattern = "yyyy-MM-dd";
 		SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
-		String date = simpleDateFormat.format(today/*new Date()*/);
-		for(String[] s: birthdayArray)
-			if(s[2].equals(date))
-				System.out.println("Joyeux anniversaire " + s[0]);
+		String date = simpleDateFormat.format(today/*new Date()*/);//créé un string égale à la date en format yyyy-mm-dd
+		for(String[] s: birthdayArray)//pour chaque ligne
+			if(s[2].equals(date))//si 3eme bloque de la ligne (date) égale à la date d'aujourd'hui
+				System.out.println("Joyeux anniversaire " + s[0]);//affiche msg + prénom
 	}
 	
 

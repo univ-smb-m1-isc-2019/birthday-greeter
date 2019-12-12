@@ -3,16 +3,29 @@ package birthday;
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
+import java.io.IOException;
 import java.util.Properties;
 
 final class Mail {
 
     // send a mail to a receiver, are given the title and the content of the mail.
-    static void sendMail(User receiver, String title, String content) {
+    static void sendMail(User receiver, String title, String content) throws IOException {
+        String thisLine;
+        User sender = null;
+        String password = "";
 
-        // default sender... could be replaced by something more sophisticated.
-        User sender = new User("Alexandre", "Ascenci", new Date("1998-03-24"), "nerah.master41@gmail.com");
-        final String password = "23Bisphen0l";
+        // sender configuration from file
+        FileReader fileReader = new FileReader( "mail_sender.conf.txt" );
+
+        // 1ère ligne => on récupère les données associées à l'utilisateur
+        if ((thisLine = fileReader.readLine()) != null) {
+            sender = new User(thisLine);
+
+            // 2ème ligne => on récupère le mot de passe
+            if ((thisLine = fileReader.readLine()) != null) {
+                password = thisLine;
+            }
+        }
 
         // mail properties.
         Properties prop = new Properties();
@@ -22,11 +35,16 @@ final class Mail {
         prop.put("mail.smtp.auth", "true");
         prop.put("mail.smtp.starttls.enable", "true"); //TLS
 
+        // Corrects warning "Variable is accessed within inner class. Needs to be declared final."
+        User finalSender = sender;
+        String finalPassword = password;
+
         // create a new session to connect as sender
         Session session = Session.getInstance(prop,
                 new javax.mail.Authenticator() {
                     protected PasswordAuthentication getPasswordAuthentication() {
-                        return new PasswordAuthentication(sender.mail, password);
+                        assert finalSender != null;
+                        return new PasswordAuthentication(finalSender.mail, finalPassword);
                     }
                 });
 
@@ -34,6 +52,7 @@ final class Mail {
         try {
 
             Message message = new MimeMessage(session);
+            assert sender != null;
             message.setFrom(new InternetAddress(sender.mail));
             message.setRecipients(
                     Message.RecipientType.TO,

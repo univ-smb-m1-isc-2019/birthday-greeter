@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -33,20 +34,31 @@ public class SendBirthdayMsg extends TimerTask {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		sendMsg();
+		try {
+			sendMsg();
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
-	void sendMsg() {
+	void sendMsg() throws ParseException {
 		
 		Calendar cal = Calendar.getInstance();
-		cal.set(1997, Calendar.NOVEMBER, 20);
-		Date today = cal.getTime();//set la date d'aujourd'hui au 1997-11-20
-		
+		cal.set(cal.get(Calendar.YEAR), Calendar.NOVEMBER, 20);
+		int month = cal.get(Calendar.MONTH);
+		int day = cal.get(Calendar.DAY_OF_MONTH);
 		String pattern = "yyyy-MM-dd";
 		SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
-		String date = simpleDateFormat.format(today/*new Date()*/);//créé un string égale à la date en format yyyy-mm-dd
-		for(String[] s: birthdayArray)//pour chaque ligne
-			if(s[2].equals(date))//si 3eme bloc de la ligne de humans.txt (date) égale à la date d'aujourd'hui
+		
+		for(String[] s: birthdayArray) {
+			Date birthdayDate = simpleDateFormat.parse(s[2]);
+			cal.setTime(birthdayDate);
+			int birthdayMonth = cal.get(Calendar.MONTH);
+			int birthdayDay = cal.get(Calendar.DAY_OF_MONTH);
+			if(month == birthdayMonth && day == birthdayDay)//si 3eme bloc de la ligne de humans.txt (date) égale à la date d'aujourd'hui
 				System.out.println("Joyeux anniversaire " + s[0]);//affiche msg + prénom
+		}
+			
 	}
 	
 

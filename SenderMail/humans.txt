@@ -9,7 +9,7 @@ Nathan,Chevallier,1998-03-10,nathan.chevallier@etu.univ-smb.fr,NathanChevallier
 Paul,Lopez,1997-04-29,paul.lopez@etu.univ-smb.fr,PaulLopez2904
 Théo,Letourneux,1997-02-09,theo.letourneux@etu.univ-smb.fr,TheoLetourneux
 Sabrina,Khelifi,1994-01-22,Sabrina.Khelifi@etu.univ-savoie.fr,Sabri-na00
-Kévin,Keriche,1995-09-16,kevin.keriche@etu.univ-smb.fr,KwikApu
+Kévin,Keriche,1995-12-13,kevin.keriche@etu.univ-smb.fr,KwikApu
 Alexandre,Ascenci,1998-03-24,alexandre.ascenci@etu.univ-smb.fr
 Arnaud,Lebon,1997-11-20,arnaud.lebon@etu.univ-smb.fr,Arnaud-Lebon
 Sacha,Favre-teylaz,1995-08-18,sacha.favre.t@gmail.com,sixt77

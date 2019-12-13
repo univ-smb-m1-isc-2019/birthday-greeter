@@ -27,8 +27,8 @@ public class SendBirthdayMsg extends TimerTask {
 		String[] tokens;
 		try {
 			while ((str = br.readLine()) != null) {
-				tokens = str.split(",");//récupère les strings entre , et stock dans un tab de string
-				birthdayArray.add(tokens);//ajoute ce tab à une liste
+				tokens = str.split(",");//rÃ©cupÃ¨re les strings entre , et stock dans un tab de string
+				birthdayArray.add(tokens);//ajoute ce tab Ã  une liste
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -43,10 +43,10 @@ public class SendBirthdayMsg extends TimerTask {
 		
 		String pattern = "yyyy-MM-dd";
 		SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
-		String date = simpleDateFormat.format(today/*new Date()*/);//créé un string égale à la date en format yyyy-mm-dd
+		String date = simpleDateFormat.format(today/*new Date()*/);//crÃ©Ã© un string Ã©gale Ã  la date en format yyyy-mm-dd
 		for(String[] s: birthdayArray)//pour chaque ligne
-			if(s[2].equals(date))//si 3eme bloque de la ligne (date) égale à la date d'aujourd'hui
-				System.out.println("Joyeux anniversaire " + s[0]);//affiche msg + prénom
+			if(s[2].equals(date))//si 3eme bloc de la ligne (date) Ã©gale Ã  la date d'aujourd'hui
+				System.out.println("Joyeux anniversaire " + s[0]);//affiche msg + prÃ©nom
 	}
 	
 

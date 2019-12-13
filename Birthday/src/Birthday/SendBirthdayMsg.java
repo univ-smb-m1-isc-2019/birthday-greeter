@@ -45,7 +45,7 @@ public class SendBirthdayMsg extends TimerTask {
 		SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
 		String date = simpleDateFormat.format(today/*new Date()*/);//créé un string égale à la date en format yyyy-mm-dd
 		for(String[] s: birthdayArray)//pour chaque ligne
-			if(s[2].equals(date))//si 3eme bloc de la ligne (date) égale à la date d'aujourd'hui
+			if(s[2].equals(date))//si 3eme bloc de la ligne de humans.txt (date) égale à la date d'aujourd'hui
 				System.out.println("Joyeux anniversaire " + s[0]);//affiche msg + prénom
 	}
 	

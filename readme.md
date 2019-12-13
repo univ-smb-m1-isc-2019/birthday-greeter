@@ -28,6 +28,20 @@ A noter que les configurations liées au
 compte utilisateur qui enverra les mails
 sont déclarées dans "mail_sender.conf.txt".
 
+### J'ai mis à jour le fichier, mais l'envoi de mail ne fonctionne pas
+
+#### Authentification failed
+Si vous avez le message d'erreur suivant:
+`javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted.
+`
+
+Il est possible que vous n'ayez pas encore
+autorisé l'application à accéder à votre
+compte.
+
+Pour plus de détails, reportez-vous vers
+[cette page](https://support.google.com/accounts/answer/185833?hl=fr&ctx=ch_DisplayUnlockCaptcha).
+
 ## Faire tourner le projet
 
 Il faut "builder" le projet avec la commande:

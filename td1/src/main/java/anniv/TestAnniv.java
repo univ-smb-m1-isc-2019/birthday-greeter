@@ -6,17 +6,17 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
-public class testAnniv {
+public class TestAnniv {
 
-    public static boolean testDateAjd(String date) {
+    public boolean testDateAjd(String date) {
         final Date dateAjd = new Date();
         String testDate = new SimpleDateFormat("MM-dd").format(dateAjd);
         return testDate.equals(date);
     }
 
-    public static ArrayList<String> getAnniv (String fichier) throws IOException {
+    public ArrayList<String> getAnniv (String fichier) throws IOException {
         ArrayList<String> res = new ArrayList<String>(); // Create an ArrayList object
-        InputStream flux = new FileInputStream(fichier);
+        InputStream flux = Thread.currentThread().getContextClassLoader().getResourceAsStream("humans.txt");
         InputStreamReader lecture = new InputStreamReader(flux);
         BufferedReader buff = new BufferedReader(lecture);
         String ligne;

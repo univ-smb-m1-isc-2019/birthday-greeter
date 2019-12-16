@@ -7,7 +7,11 @@ import java.util.Properties;
 
 public class SendEmailTLS {
 
-    public static void sendMessage(String mail) {
+    public SendEmailTLS() {
+        System.out.println(this.getClass().getResourceAsStream("humans.txt"));
+    }
+
+    public void sendMessage(String mail) {
 
         final String username = "lechatdeluca@gmail.com";
         final String password = "ocitssurkxrdaiik";

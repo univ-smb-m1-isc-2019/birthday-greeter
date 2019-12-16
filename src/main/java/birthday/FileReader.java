@@ -1,12 +1,14 @@
 package birthday;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.FileSystems;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
+import org.apache.commons.io.IOUtils;
 
 /**
  * FileReader class:
@@ -66,7 +68,7 @@ class FileReader {
      * Gets the content of a file by giving the path of this
      * one and its encoding.
      *
-     * @param path The path to the file we want to access.
+     * @param resourcePath The path to the file we want to access.
      * @param encoding The encoding (ie. StandardCharsets.UTF_8)
      * @return A list of strings. The content.
      * @throws IOException If an I/O error occurs reading from the file or a malformed or unmappable byte sequence is read.
@@ -77,8 +79,10 @@ class FileReader {
      *
      * @author Alexandre Ascenci
      */
-    private List<String> getContent ( String path, Charset encoding ) throws IOException {
-        return Files.readAllLines( FileSystems.getDefault().getPath( path ), encoding );
+    private List getContent (String resourcePath, Charset encoding ) throws IOException {
+        InputStream inputStream = Thread.currentThread().getContextClassLoader().getResourceAsStream(resourcePath);
+        assert inputStream != null;
+        return IOUtils.readLines(inputStream, String.valueOf(StandardCharsets.UTF_8));
     }
 
     /**

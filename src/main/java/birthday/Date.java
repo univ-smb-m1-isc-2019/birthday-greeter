@@ -3,7 +3,6 @@ package birthday;
 import java.time.LocalDateTime;
 
 public class Date {
-    // Instance variables
     private int day, month, year;
 
     public Date(int day, int month, int year) {
@@ -14,7 +13,6 @@ public class Date {
 
     /* Format => "1998-03-24" */
     Date(String date) {
-        // get every needed date
         this.day = Integer.parseInt(date.substring(8, 10));
         this.month = Integer.parseInt(date.substring(5, 7));
         this.year = Integer.parseInt(date.substring(0, 4));

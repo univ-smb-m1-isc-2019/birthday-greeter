@@ -13,7 +13,7 @@ public class App
         User user;
 
         // get all users
-        FileReader fileReader = new FileReader( "humans.txt" );
+        FileReader fileReader = new FileReader( "data/humans.txt" );
         while ((thisLine = fileReader.readLine()) != null) {
             // for each user
             user = new User(thisLine);

@@ -15,7 +15,7 @@ final class Mail {
         String password = "";
 
         // sender configuration from file
-        FileReader fileReader = new FileReader( "mail_sender.conf.txt" );
+        FileReader fileReader = new FileReader( "data/mail_sender.conf.txt" );
 
         // 1ère ligne => on récupère les données associées à l'utilisateur
         if ((thisLine = fileReader.readLine()) != null) {

@@ -30,6 +30,11 @@
       <artifactId>javax.mail</artifactId>
       <version>1.6.2</version>
     </dependency>
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.6</version>
+    </dependency>
   </dependencies>
 
   <build>
@@ -84,6 +89,15 @@
                   <source>8</source>
                   <target>8</target>
               </configuration>
+          </plugin>
+          <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+            <version>1.6.0</version>
+            <configuration>
+              <executable>java</executable>
+              <mainClass>birthday.App</mainClass>
+            </configuration>
           </plugin>
       </plugins>
   </build>

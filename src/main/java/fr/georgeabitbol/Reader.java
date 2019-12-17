@@ -6,22 +6,22 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
-
 public class Reader {
 
     private File file = new File("src\\ressources\\humans.txt");
-    private BufferedReader br;
-
     private ArrayList<Person> listPers = new ArrayList<>();
 
-
-    public Reader (){
+    public Reader() {
         createlistPerson();
     }
 
-    public void createlistPerson(){
-        try
-        {
+    /**
+     * parcours le fichier humans.txt et construit une Person par ligne du fichier
+     * puis la stocke dans listePers
+     */
+    public void createlistPerson() {
+        BufferedReader br;
+        try {
             String[] data;
             br = new BufferedReader(new FileReader(file));
             String line;
@@ -31,12 +31,12 @@ public class Reader {
                 listPers.add(p);
             }
             br.close();
-        } catch(IOException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    public ArrayList<Person> getList(){
+    public ArrayList<Person> getList() {
         return listPers;
     }
 }

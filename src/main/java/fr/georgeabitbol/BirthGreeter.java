@@ -1,10 +1,6 @@
 package fr.georgeabitbol;
 
-
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
-
 
 class BirthGreeter {
 
@@ -14,7 +10,8 @@ class BirthGreeter {
     BirthGreeter() {
         Reader r = new Reader();
         listPerson = r.getList();
-        this.today = today().split("/");
+        DateToday d = new DateToday();
+        this.today = d.get_date();
     }
 
     /**
@@ -43,17 +40,5 @@ class BirthGreeter {
                 System.out.println("Joyeux anniversaire " + res.get(i).get_prenom() + " " + res.get(i).get_nom());
         }
     }
-
-    /**
-     * renvoie la date d'aujourd'hui sous le format jour/mois
-     */
-    private static String today() {
-        String format = "dd/MM";
-        SimpleDateFormat formater = new SimpleDateFormat(format);
-        Date date = new Date();
-        System.out.println(formater.format(date));
-        return formater.format(date);
-    }
-
 }
 

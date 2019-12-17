@@ -6,12 +6,12 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class Reader {
+class Reader {
 
     private File file = new File("src\\ressources\\humans.txt");
     private ArrayList<Person> listPers = new ArrayList<>();
 
-    public Reader() {
+    Reader() {
         createlistPerson();
     }
 
@@ -19,7 +19,7 @@ public class Reader {
      * parcours le fichier humans.txt et construit une Person par ligne du fichier
      * puis la stocke dans listePers
      */
-    public void createlistPerson() {
+    private void createlistPerson() {
         BufferedReader br;
         try {
             String[] data;
@@ -36,7 +36,7 @@ public class Reader {
         }
     }
 
-    public ArrayList<Person> getList() {
+    ArrayList<Person> getList() {
         return listPers;
     }
 }

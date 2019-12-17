@@ -6,12 +6,12 @@ import java.util.ArrayList;
 import java.util.Date;
 
 
-public class BirthGreeter {
+class BirthGreeter {
 
     private ArrayList<Person> listPerson;
     private String[] today;
 
-    public BirthGreeter() {
+    BirthGreeter() {
         Reader r = new Reader();
         listPerson = r.getList();
         this.today = today().split("/");
@@ -21,7 +21,7 @@ public class BirthGreeter {
      * recupère les personnes dont c'est l'anniversaire et les met dans une liste
      * cette liste est ensuite affiché, mais peut être récupéré pour envoyer des mails plus tard
      */
-    public void getBirthday() {
+    void getBirthday() {
 
         ArrayList<Person> res = new ArrayList<>();
         int i = 0;
@@ -30,7 +30,7 @@ public class BirthGreeter {
             Person p = listPerson.get(i);
             String[] date = p.get_date();
 
-            if (today.equals(date)) {
+            if (today[0].equals(date[0]) && today[1].equals(date[1])) {
                 res.add(p);
             }
 
@@ -40,17 +40,18 @@ public class BirthGreeter {
             System.out.println("Il n'y a pas d'anniversaire à la date d'aujourd'hui.");
         } else {
             for (i = 0; i < res.size(); i++)
-                System.out.println("Joyeux anniversaire" + res.get(i).get_prenom() + " " + res.get(i).get_prenom());
+                System.out.println("Joyeux anniversaire " + res.get(i).get_prenom() + " " + res.get(i).get_nom());
         }
     }
 
     /**
-     * renvoie la date d'aujourd'hui sous le format mois/jour
+     * renvoie la date d'aujourd'hui sous le format jour/mois
      */
-    public static String today() {
-        String format = "MM/dd";
+    private static String today() {
+        String format = "dd/MM";
         SimpleDateFormat formater = new SimpleDateFormat(format);
         Date date = new Date();
+        System.out.println(formater.format(date));
         return formater.format(date);
     }
 

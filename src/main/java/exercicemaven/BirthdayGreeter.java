@@ -9,9 +9,8 @@ public class BirthdayGreeter {
      * For each employee in the listEmployees, if it's their birthday
      * it sends an email to wish them a 'happy birthday'
      */
-    public static void greetEmployeesBirthday(ArrayList<String> listEmployees) throws ParseException {
-        for(String employeeInformation: listEmployees){
-            Employee employee = new Employee(employeeInformation);
+    public static void greetEmployeesBirthday(ArrayList<Employee> listEmployees) {
+        for(Employee employee: listEmployees){
 
             if(employee.isBirthday()){
                 wishHappyBirthday(employee);

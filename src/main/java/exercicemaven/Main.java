@@ -9,8 +9,8 @@ public class Main {
     private static final String FILE_LIST_EMPLOYEES = "humans.txt";
 
     public static void main(String[] args) throws IOException, ParseException {
-        ArrayList<String> getAllEmployees = ListEmployeesFileReader.getListEmployees(FILE_LIST_EMPLOYEES);
+        ArrayList<Employee> listEmployees = ListEmployeesFileReader.getListEmployees(FILE_LIST_EMPLOYEES);
 
-        BirthdayGreeter.greetEmployeesBirthday(getAllEmployees);
+        BirthdayGreeter.greetEmployeesBirthday(listEmployees);
     }
 }

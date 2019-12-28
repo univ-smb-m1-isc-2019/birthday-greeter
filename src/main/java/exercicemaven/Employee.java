@@ -22,6 +22,11 @@ public class Employee {
         this.emailAddress = emailAddress;
     }
 
+    /**
+     * This constructor expects the employee information in a string
+     * separated by commas, as such:
+     * firstName,lastName,dateOfBirth,emailAddress
+     */
     Employee(String employeeInformation) throws ParseException {
         String[] employee = employeeInformation.split(",");
 

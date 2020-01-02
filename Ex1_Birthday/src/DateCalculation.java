@@ -6,7 +6,7 @@ public class DateCalculation {
     public static boolean CompareTodayToBirth(String birthday){
         boolean sameDate = false ;
         Date today =  new Date();
-        if(dateToString(today).equals(suppressYear(birthday))){
+        if(dateToString(today).equals(birthday.substring(5,10))){
             sameDate = true;
         }
         return sameDate;
@@ -17,8 +17,4 @@ public class DateCalculation {
         return formatter.format(date);
     }
 
-    public static String suppressYear(String date){
-        String[]parts = date.split("-");
-        return parts[1]+"-"+parts[2];
-    }
 }

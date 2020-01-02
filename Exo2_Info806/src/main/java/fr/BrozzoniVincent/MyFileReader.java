@@ -9,10 +9,10 @@ public class MyFileReader {
     public ArrayList<Employee> ReadCreateList(){
         ArrayList<Employee> employeeList = new ArrayList<>();
         try {
-            File file = new File("humans.txt");
-
+			InputStream input = this.getClass().getResourceAsStream("/humans.txt");
+			InputStreamReader streamReader = new InputStreamReader(input);
             BufferedReader br = null;
-            br = new BufferedReader(new FileReader(file));
+            br = new BufferedReader(streamReader);
             String st ;
             while ((st = br.readLine()) != null) {
                 String[] parts = st.split(",");

@@ -27,39 +27,11 @@ public class SendEMail
     public SendEMail()
     {
         fileName = "humans.txt";/*Le fichier dans le src du projet*/
-
         listToSend = new ArrayList<>();
         listFromFile = new ArrayList<>();
-
-        readFile(fileName);/*On recupere les informations du fichier*/
-
+        listFromFile = MyFileReader.readFile(fileName);/*On recupere les informations du fichier*/
         birthday = new Birthday();
 
-    }
-
-    private void readFile(String fileName)
-        /*Fonction de lecture du fichier.
-         * On considere que le fichier a ete rentre avec un format valide*/
-    {
-        File file = new File(
-                SendEMail.class.getClassLoader().getResource("humans.txt").getFile()
-        );
-
-        try
-        {
-            BufferedReader br = new BufferedReader(new FileReader(file));
-
-            String line;
-            while((line = br.readLine()) != null)
-                /*On prend chaque ligne du fichier qu'on ajoute dans la liste correspondante*/
-            {
-                listFromFile.add(line);
-            }
-        }
-        catch (Exception e)
-        {
-            e.printStackTrace();
-        }
     }
 
     public void sendMails()

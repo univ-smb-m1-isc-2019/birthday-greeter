@@ -37,15 +37,19 @@ public class Birthday {
         return  listBirthdayToday;
     }
 
-    private boolean isBirthday(String[] birthday) {
+    private boolean isBirthday(String[] birthday)
+    {
+        /*Test si c'est l'anniversaire de la personne donnée en argument*/
         return (getMonth(today)).equals(getMonth(birthday)) && (getDay(today)).equals(getDay(birthday));
     }
     private String getDay(String[] date)
+            /*retourne le jour de la date donnée en argument*/
     {
         return date[2];
     }
 
     private String getMonth(String[] date)
+            /*retourne le mois de la date donnée en argument*/
     {
         return date[1];
     }

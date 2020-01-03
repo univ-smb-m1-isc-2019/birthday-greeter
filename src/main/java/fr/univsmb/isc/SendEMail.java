@@ -9,6 +9,15 @@ import java.util.Date;
 
 public class SendEMail
 {
+
+    /*mvn exec:java -Dexec.mainClass="fr.univsmb.isc.SendEMail"*/
+    /*git rebase puis faire le refactoring
+    *
+    * */
+
+
+
+
     private ArrayList<String> listToSend;/*Liste des personnes dont c'est l'anniversaire aujourd'hui*/
     private ArrayList<String> listFromFile;/*Liste de toutes les personnes du fichier*/
     private String fileName;/*Nom du fichier dans lequel sont stoquees les informations*/
@@ -90,11 +99,7 @@ public class SendEMail
         return s[2];
     }
 
-    public static void main(String[] args)
-            /*Le main peut etre mis dans n'importe quelle classe du package il s'utilisera de la meme facon*/
-    {
-        SendEMail sendEMail = new SendEMail();
-        sendEMail.sendMails();
 
-    }
+
+
 }

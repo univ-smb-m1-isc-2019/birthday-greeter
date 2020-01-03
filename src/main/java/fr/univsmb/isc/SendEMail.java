@@ -84,7 +84,7 @@ public class SendEMail
             /*On parcour la liste des personnes qui etaient dans le fichier*/
         {
             birthday = (getBirthday(s)).split("-");
-            if (today[1].equals(birthday[1]) && today[2].equals(birthday[2]))
+            if (isBirthday(birthday))
                 /*Si le mois et le jour de leur anniversaire correspondent au mois et au jour actuel alors on les ajoute a la liste*/
             {
                 listToSend.add(s);
@@ -92,6 +92,11 @@ public class SendEMail
 
         }
     }
+
+    private boolean isBirthday(String[] birthday) {
+        return today[1].equals(birthday[1]) && today[2].equals(birthday[2]);
+    }
+
 
     private String getBirthday(String line) {
         /*Recupere la date d'anniversaire d'une personne selon le format du fichier*/

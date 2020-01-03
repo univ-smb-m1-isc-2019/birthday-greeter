@@ -13,16 +13,17 @@ public class Birthday {
     {
         /*Recuperation de la date actuelle*/
         Date now = new Date();
-        DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+        DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");/*On set le format qu'on veut*/
         String date = dateFormat.format(now);
-        today = date.split("-");
+        today = date.split("-");/*On stock la date dans notre variable de classe*/
     }
 
     public ArrayList<String> setListBirthday(ArrayList<String> listFromFile)
         /*Procedure pour recuperer les personnes dont c'est l'anniversaire aujourd'hui*/
     {
-        ArrayList<String> listBirthdayToday = new ArrayList<>();
+        ArrayList<String> listBirthdayToday = new ArrayList<>();/*Liste qui contiendra les personnes dont c'est l'anniversaire aujourd'hui*/
         String[] birthday;
+
         for (String s : listFromFile)
             /*On parcour la liste des personnes qui etaient dans le fichier*/
         {

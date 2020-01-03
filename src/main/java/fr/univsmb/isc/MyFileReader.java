@@ -11,7 +11,9 @@ public class MyFileReader {
         /*Fonction de lecture du fichier.
          * On considere que le fichier a ete rentre avec un format valide*/ {
 
-        ArrayList<String> listPeople = new ArrayList<>();
+        ArrayList<String> listPeople = new ArrayList<>();/*Liste qui va contenir toutes les personnes qui sont dans le fichier*/
+
+        /*On recupere le fichier sans connaitre le chemin absolu*/
         File file = new File(
                 SendEMail.class.getClassLoader().getResource("humans.txt").getFile()
         );
@@ -20,6 +22,7 @@ public class MyFileReader {
             BufferedReader br = new BufferedReader(new FileReader(file));
 
             String line;
+
             while ((line = br.readLine()) != null)
                 /*On prend chaque ligne du fichier qu'on ajoute dans la liste correspondante*/ {
                 listPeople.add(line);

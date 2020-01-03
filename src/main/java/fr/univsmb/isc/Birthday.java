@@ -28,7 +28,7 @@ public class Birthday {
         {
             birthday = (getBirthday(s)).split("-");
             if (isBirthday(birthday))
-                /*Si le mois et le jour de leur anniversaire correspondent au mois et au jour actuel alors on les ajoute a la liste*/
+                /*Si c'est l'anniversaire de la personne alors on les ajoute a la liste*/
             {
                 listBirthdayToday.add(s);
             }
@@ -38,7 +38,16 @@ public class Birthday {
     }
 
     private boolean isBirthday(String[] birthday) {
-        return today[1].equals(birthday[1]) && today[2].equals(birthday[2]);
+        return (getMonth(today)).equals(getMonth(birthday)) && (getDay(today)).equals(getDay(birthday));
+    }
+    private String getDay(String[] date)
+    {
+        return date[2];
+    }
+
+    private String getMonth(String[] date)
+    {
+        return date[1];
     }
 
 

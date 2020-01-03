@@ -32,7 +32,7 @@ public class SendEMail
         listFromFile = new ArrayList<>();
 
         readFile(fileName);/*On recupere les informations du fichier*/
-        
+
         birthday = new Birthday();
 
     }

@@ -1,0 +1,5 @@
+fr\Birthday\DateExtractor.class
+fr\Birthday\Scheduler.class
+fr\Birthday\MsgSender.class
+fr\Birthday\SendBirthdayMsg.class
+fr\Birthday\Reader.class

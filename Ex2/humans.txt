@@ -1,0 +1,24 @@
+Adrien,Brianne,1995-09-18,adrien.brianne@etu.univ-smb.fr,Cocoboost
+Alexandre,Ascenci,1998-03-24,alexandre.ascenci@etu.univ-smb.fr
+Aramais,Stepanyan,1993-03-26,aramais.stepanyan@etu.univ-smb.fr,CommanderShepardN7
+Arnaud,Lebon,1997-11-20,arnaud.lebon@etu.univ-smb.fr,Arnaud-Lebon
+Baptiste,Diot,1995-08-10,baptiste.diot@etu.univ-smb.fr,Dehmena
+Baptiste,Favre-Teylaz,1997-08-14,b.favre.teylaz@gmail.com,BaptisteFT
+Guillaume,Jambet,1975-11-01,guillaume.jambet@gmail.com,gjambet
+Julien,Rouzee, 1998-06-11, julien.rouzee@etu.univ-smb.fr, Julien-rouzee
+Kévin,Keriche,1995-09-16,kevin.keriche@etu.univ-smb.fr,KwikApu
+Luca,Chapelle,1998-11-14,luca.chapelle@etu.univ-smb.fr,lucachapelle
+Lucas,Brignoli,1996-02-03,luasbrign@gmail.com,dontcrenie
+Maxime,Vigny,1997-12-09,maxvigny@orange.fr,MaximeVigny
+Nathan,Chevallier,1998-03-10,nathan.chevallier@etu.univ-smb.fr,NathanChevallier
+Olivier,Legsage,1997-07-10,olivier.lesage@etu.univ-savoie.fr,OlivierLESAGE
+Paul,Lopez,1997-04-29,paul.lopez@etu.univ-smb.fr,PaulLopez2904
+Quentin,Blin,1996-12-07,quentin.blin@etu.univ-smb.fr,SwaggyCake
+Sabrina,Khelifi,1994-01-22,Sabrina.Khelifi@etu.univ-savoie.fr,Sabri-na00
+Sacha,Favre-teylaz,1995-08-18,sacha.favre.t@gmail.com,sixt77
+Théo,Jugand,1998-01-26,jugandtheo@gmail.com,TheoJugand
+Théo,Letourneux,1997-02-09,theo.letourneux@etu.univ-smb.fr,TheoLetourneux
+Thibault,Chaminade,1998-06-27,thibault.chaminade@etu.univ-smb.fr,thibChami
+Thomas,Bottollier-Darbelin,2003-04-10,thomas.bottollierdarbelin@etu.univ-savoie.fr,Kaddass
+Vincent,Brozzoni,1997-01-08,vincent-brozzoni@outlook.fr,VincentBROZZONI
+Yann,Dubost,1998-07-29,yann.dubost@etu.univ-smb.fr,YannDubost

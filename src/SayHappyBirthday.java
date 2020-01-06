@@ -42,6 +42,7 @@ public class SayHappyBirthday  {
                 for (int i = 0; i < tabPersonne.length; i++)
                 {
                     //récupération de la liste des personnes à qui on doit souhaiter Ze happy birkhsday
+                    //en comparant la date d'aujourd'hui avec toute les date se trouvant dans le fichier humans.txt
                     if(isEqualDate(tabPersonne[2]) && tabPersonne[i] == tabPersonne[2]) {
                        UserList.add(tabPersonne);
                     }

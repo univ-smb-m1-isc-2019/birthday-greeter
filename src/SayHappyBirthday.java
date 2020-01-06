@@ -18,6 +18,7 @@ public class SayHappyBirthday  {
 
     //Initialisations
     SayHappyBirthday(){
+        //le format de la date précisé permet de la vérification du mois et du jour uniquement pendant les tests
         this.getFormat = new SimpleDateFormat( "MM/dd");
         this.thatdate = new Date();
         getFormat.format(thatdate) ;

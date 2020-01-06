@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
-
+//cette classe permet de créer une liste d'utilisateurs dont c'est l'anniversaire et de le leurs souhaiter
 public class SayHappyBirthday  {
     public  String[] tabPersonne;
 

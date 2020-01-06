@@ -80,7 +80,7 @@ public class SayHappyBirthday  {
 
 
      public void HappyBirthday(){
-         //envoyer un mail à tous les utilisateurs
+         //envoyer un mail à tous les utilisateurs dont c'est l'anniversaire
 
          for(int i = 0; i<UserList.size();i++){
              String mail = UserList.get(i)[3];

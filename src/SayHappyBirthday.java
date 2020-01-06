@@ -10,7 +10,9 @@ public class SayHappyBirthday  {
     public  String[] tabPersonne;
 
     ArrayList<String[]> UserList;
+    //précision du format de la date utilisé pour les tests
     DateFormat getFormat ;
+    //représentera la date actuelle
     Date thatdate ;
 
 

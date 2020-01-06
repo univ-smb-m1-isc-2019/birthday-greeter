@@ -12,6 +12,6 @@ public class Main {
         //System.out.println("The current working directory is " + currentDirectory);//
     //Le main embarque la fonctionnalité pour souhaiter des anniversaires. On pourrait faires d'autres actions ensuite, si on le voulait.
         BirthdayGreeting bg = new BirthdayGreeting();
-        bg.sendMailToBirthdays();
+        bg.sendMailToEmployeesIfBirthday();
     }
 }

@@ -26,7 +26,7 @@ public class SayHappyBirthday  {
 
     }
 
-
+  //cette méthode permet de récupérer la liste de tous les utlisateurs dont c'est l'anniversaire
     public void getPeople()  {
         File F= new File("./humans.txt");
 

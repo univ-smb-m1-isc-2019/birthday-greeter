@@ -1,11 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aebc0211-ca03-49d1-8be6-6edff0899450" name="Default Changelist" comment="" />
+    <list default="true" id="aebc0211-ca03-49d1-8be6-6edff0899450" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bday/BirthDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bday/BirthDayTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bday/FileLineReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bday/Notifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bday/bDayGreeter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/humans.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BirthdayAlarm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BirthdayAlarm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BirthdayAlarm/META-INF/BirthdayAlarm.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BirthdayAlarm/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BirthdayAlarm/bDayGreeter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/humans.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bday/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bDayGreeter.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="BirthdayAlarm" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -14,7 +39,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1UQwUuPvO5V7GsBYBCrwhOnHioJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,11 +60,32 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="D:/COURS_MASTER/INFO806/GildedRose-master" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="bday" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bday.Main" />
+      <module name="BirthdayAlarm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bday.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="BirthdayAlarm" />
@@ -34,9 +93,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in BirthdayAlarm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BirthdayAlarm" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.All in BirthdayAlarm" />
       </list>
     </recent_temporary>
   </component>
@@ -70,46 +139,126 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="627" y="325" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1575302177193" />
+    <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578151412668">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/-1920.0.1536.864@0.0.1920.1080" timestamp="1578151412668" />
     <state x="1245" y="249" key="#com.intellij.ide.util.MemberChooser" timestamp="1576061451830">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1245" y="249" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1576061451830" />
-    <state x="740" y="257" key="FileChooserDialogImpl" timestamp="1576135673694">
+    <state x="690" y="286" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1578235606084">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="740" y="257" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1576135673694" />
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1576184098433">
+    <state x="690" y="286" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1080/-1920.0.1536.864@0.0.1920.1080" timestamp="1578235606084" />
+    <state x="419" y="399" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1576508331671">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1536.864@0.0.1920.1080" timestamp="1576184098433" />
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1576141757933" />
-    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1576184098433">
+    <state x="419" y="399" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1080@0.0.1920.1080" timestamp="1576508331671" />
+    <state x="587" y="134" key="CommitChangelistDialog2" timestamp="1576511719919">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1536.864@0.0.1920.1080" timestamp="1576184098433" />
-    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1576141757933" />
-    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1576184098433">
+    <state x="587" y="134" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1576511719919" />
+    <state x="740" y="257" key="FileChooserDialogImpl" timestamp="1578238234210">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1536.864@0.0.1920.1080" timestamp="1576184098433" />
-    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1576141757933" />
-    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1576184098433">
+    <state x="740" y="257" key="FileChooserDialogImpl/0.0.1920.1080/-1920.0.1536.864@0.0.1920.1080" timestamp="1578238234210" />
+    <state x="740" y="257" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1576512287556" />
+    <state width="1097" height="295" key="GridCell.Tab.0.bottom" timestamp="1578242301066">
+      <screen x="-1920" y="0" width="1536" height="864" />
+    </state>
+    <state width="1097" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1536.864@-1920.0.1536.864" timestamp="1578242301066" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1536.864@0.0.1920.1080" timestamp="1578237701123" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1576514605303" />
+    <state width="1097" height="295" key="GridCell.Tab.0.center" timestamp="1578242301066">
+      <screen x="-1920" y="0" width="1536" height="864" />
+    </state>
+    <state width="1097" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1536.864@-1920.0.1536.864" timestamp="1578242301066" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1536.864@0.0.1920.1080" timestamp="1578237701123" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1576514605302" />
+    <state width="1097" height="295" key="GridCell.Tab.0.left" timestamp="1578242301066">
+      <screen x="-1920" y="0" width="1536" height="864" />
+    </state>
+    <state width="1097" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1536.864@-1920.0.1536.864" timestamp="1578242301066" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1536.864@0.0.1920.1080" timestamp="1578237701123" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1576514605302" />
+    <state width="1097" height="295" key="GridCell.Tab.0.right" timestamp="1578242301066">
+      <screen x="-1920" y="0" width="1536" height="864" />
+    </state>
+    <state width="1097" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1536.864@-1920.0.1536.864" timestamp="1578242301066" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1536.864@0.0.1920.1080" timestamp="1578237701123" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1576514605302" />
+    <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1576511109661">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1536.864@0.0.1920.1080" timestamp="1576184098433" />
-    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1576141757933" />
+    <state width="1877" height="363" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1576511109661" />
+    <state width="1877" height="363" key="GridCell.Tab.1.center" timestamp="1576511109661">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1576511109661" />
+    <state width="1877" height="363" key="GridCell.Tab.1.left" timestamp="1576511109661">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1576511109661" />
+    <state width="1877" height="363" key="GridCell.Tab.1.right" timestamp="1576511109661">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1576511109661" />
     <state x="625" y="238" key="NewModule_or_Project.wizard" timestamp="1575358394913">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="625" y="238" key="NewModule_or_Project.wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1575358394913" />
-    <state x="1136" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1576222529459">
+    <state x="440" y="114" key="SettingsEditor" timestamp="1578250183344">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1136" y="363" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-1920.0.1536.864@0.0.1920.1080" timestamp="1576176976076" />
-    <state x="1136" y="363" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1576222529459" />
-    <state x="131" y="107" width="729" height="737" key="dock-window-1" timestamp="1576061359970">
+    <state x="440" y="114" key="SettingsEditor/0.0.1920.1080/-1920.0.1536.864@0.0.1920.1080" timestamp="1578250183344" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1578153131428">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1080/-1920.0.1536.864@0.0.1920.1080" timestamp="1578153131428" />
+    <state x="1136" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1578231227734">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1136" y="363" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-1920.0.1536.864@0.0.1920.1080" timestamp="1578231227734" />
+    <state x="1136" y="363" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1576511126915" />
+    <state x="769" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578250173858">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="769" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080/-1920.0.1536.864@0.0.1920.1080" timestamp="1578250173858" />
+    <state x="536" y="275" width="847" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1576511012315">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="536" y="275" width="847" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1080@0.0.1920.1080" timestamp="1576511012315" />
+    <state x="192" y="126" width="1510" height="1067" key="dock-window-1" timestamp="1578231455824">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="192" y="126" width="1510" height="1067" key="dock-window-1/0.0.1920.1080/-1920.0.1536.864@0.0.1920.1080" timestamp="1578231455824" />
     <state x="131" y="107" width="729" height="737" key="dock-window-1/0.0.1920.1080@0.0.1920.1080" timestamp="1576061359970" />
+    <state x="-1919" y="-13" width="1508" height="743" maximized="true" key="dock-window-2" timestamp="1578235334339">
+      <screen x="-1920" y="0" width="1536" height="864" />
+    </state>
+    <state x="-1919" y="-13" width="1508" height="743" maximized="true" key="dock-window-2/0.0.1920.1080/-1920.0.1536.864@0.0.1920.1080" timestamp="1578235334339" />
+    <state x="690" y="295" key="extract.method.dialog" timestamp="1576512411792">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="690" y="295" key="extract.method.dialog/0.0.1920.1080@0.0.1920.1080" timestamp="1576512411792" />
+    <state x="586" y="93" width="748" height="894" key="find.popup" timestamp="1578153212513">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="586" y="93" width="748" height="894" key="find.popup/0.0.1920.1080/-1920.0.1536.864@0.0.1920.1080" timestamp="1578153212513" />
+    <state x="616" y="250" key="run.anything.popup" timestamp="1578153378643">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080/-1920.0.1536.864@0.0.1920.1080" timestamp="1578153378643" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BirthdayAlarm$Main.ic" NAME="Main Coverage Results" MODIFIED="1576510397740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

@@ -1,12 +1,18 @@
+package bday;
+
 import java.io.*;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+/****************************************************************************/
+/*                  OLD VERSION                                             */
+/****************************************************************************/
+
 public class bDayGreeter {
 
-    File file = new File("res/humans.txt");
+    InputStream resourceAsStream = Thread.currentThread().getContextClassLoader().getResourceAsStream("humans.txt");
     BufferedReader br;
 
     ArrayList<String[]> listUser;
@@ -15,6 +21,7 @@ public class bDayGreeter {
     String [] data;
     String [] bDayUser;
     String [] date;
+    List<BirthDay> birthDays;
 
     public bDayGreeter() {
         listUser = new ArrayList<>();
@@ -25,7 +32,7 @@ public class bDayGreeter {
     public void alarmBDay(){
         try
         {
-            br = new BufferedReader(new FileReader(file));
+            br = new BufferedReader(new InputStreamReader(resourceAsStream));
             String line;
             while ((line = br.readLine()) != null) {
 
